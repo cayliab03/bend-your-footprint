@@ -80,7 +80,6 @@ class Questions:
 
         for x in score_dict:
             self.total_green_score += score_dict[x]
-            print(score_dict[x])
 
             if self.weakest_ele_score < score_dict[x]:
                 self.weakest_ele_score = score_dict[x]
